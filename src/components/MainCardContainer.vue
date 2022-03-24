@@ -1,8 +1,6 @@
 <template>
   <main>
-    <div class="center" >
-      <CardsCompositions/>
-    </div>
+    <CardsCompositions/>
   </main>
 </template>
 
@@ -25,10 +23,4 @@ export default {
   justify-content: center;
  }
 
- .center {
-   width: 80%;
-   height: 90%;
-   display: flex;
-   flex-wrap: wrap;
- }
 </style>
