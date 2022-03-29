@@ -1,11 +1,14 @@
 <template>
   <header>
-    <p> in progress</p>
+    <ricerca-pazza/>
   </header>
 </template>
 
 <script>
+import ricercaPazza from './ricercaPazza.vue'
+
 export default {
+  components: { ricercaPazza },
   name: 'HelloWorld'
 }
 </script>
